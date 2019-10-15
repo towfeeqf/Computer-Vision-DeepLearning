@@ -1,0 +1,9 @@
+
+
+# this result in image with bright points as corners and non-corners as non-bright points
+
+-- dst = cv2.cornerHarris(gray,2, 5,0.04) 
+
+-- dst = cv2.dilate(dst,None)  # for highlighting the strong corners 
+
+-- cv2.circle(corner_image,(i,j),1,(0,255,0),2)   # 
